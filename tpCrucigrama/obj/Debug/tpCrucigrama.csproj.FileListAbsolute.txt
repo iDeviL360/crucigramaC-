@@ -1,0 +1,7 @@
+C:\Users\SQLGABI\source\repos\tpCrucigrama\tpCrucigrama\bin\Debug\tpCrucigrama.exe.config
+C:\Users\SQLGABI\source\repos\tpCrucigrama\tpCrucigrama\bin\Debug\tpCrucigrama.exe
+C:\Users\SQLGABI\source\repos\tpCrucigrama\tpCrucigrama\bin\Debug\tpCrucigrama.pdb
+C:\Users\SQLGABI\source\repos\tpCrucigrama\tpCrucigrama\obj\Debug\tpCrucigrama.csprojAssemblyReference.cache
+C:\Users\SQLGABI\source\repos\tpCrucigrama\tpCrucigrama\obj\Debug\tpCrucigrama.csproj.CoreCompileInputs.cache
+C:\Users\SQLGABI\source\repos\tpCrucigrama\tpCrucigrama\obj\Debug\tpCrucigrama.exe
+C:\Users\SQLGABI\source\repos\tpCrucigrama\tpCrucigrama\obj\Debug\tpCrucigrama.pdb
