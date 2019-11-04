@@ -11,6 +11,7 @@ namespace tpCrucigrama
         private int puntaje;
         private string[] fichas = new string[7];
         private string numeroJugador;
+        private int palabrasEncontradas = 0;
 
         public Jugador(string numeroJugador) {
             this.numeroJugador = numeroJugador;
@@ -36,6 +37,12 @@ namespace tpCrucigrama
         public string NumeroJugador
         {
             get { return this.numeroJugador; }
+        }
+
+        public int PalabrasEncontradas
+        {
+            get { return this.palabrasEncontradas; }
+            set { this.palabrasEncontradas = value; }
         }
 
         public void imprimirFichas()

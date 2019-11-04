@@ -28,10 +28,8 @@ namespace tpCrucigrama
                 jugadorActual = turno == true ? j1 : j2;
                 Console.Write("Turno " + jugadorActual.NumeroJugador + ": ");
                 jugadorActual.imprimirFichas();
-                Console.Write("\nPuntaje: {0}", jugadorActual.Puntaje);
+                Console.Write("\nPuntaje: {0} --------------- Palabras Encontradas: {1}", jugadorActual.Puntaje, jugadorActual.PalabrasEncontradas);
 
-
-                //Falta mostrar las opciones que va a tener un jugador, por ejemplo si quiere cambiar de fichas, o si quiere pasar de turno, etc.
 
                 Console.WriteLine("\nSi desar pasar de turno presione Space o para continuar presione enter");
                 if (Console.ReadKey().Key != ConsoleKey.Spacebar) 
@@ -39,12 +37,8 @@ namespace tpCrucigrama
 
 
 
-                   /*
-                     
-                    
+                   /*                    
                     Una vez que entremos aca tenemos que ver que el jugador coloque las fichas hasta que el decida que se termine su turno se pueden ingresar varias fichas en un turno y no solo una vez, CAMBIAR ESE COMPORTAMIENTO!!!!!!!!! 
-                     
-                     
                    */
 
 
@@ -80,7 +74,7 @@ namespace tpCrucigrama
                     tabla.insertarFicha(filaDest, colDest, jugadorActual.Fichas[posicionArr]);
 
                     //Calculamos el puntaje del jugador actual
-                    tabla.calcularPuntuacion(ref jugadorActual, jugadorActual.Fichas[posicionArr]);
+                    tabla.calcularPuntuacion(ref jugadorActual, jugadorActual.Fichas[posicionArr], filaDest, colDest);
 
                     //Se reemplaza la ficha que se elijio
                     jugadorActual.Fichas[posicionArr] = Ficha.generarFichaRandom();
